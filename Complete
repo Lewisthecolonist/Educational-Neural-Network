@@ -51,7 +51,5 @@ if __name__ == "__main__":
         if index == 10000:
           nn.save_weights()
           index = 0
-    # After training save the weights
     
-
     print(nn.output)
